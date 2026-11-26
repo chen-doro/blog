@@ -37,7 +37,7 @@ description: 一张速记式的 AI 知识地图，串联机器学习、大模型
 - 编解码链路：`encode -> tokenId -> LLM -> decode -> token`
 - 表示与计算：`embedding (特征 & 关系) -> transformer -> attention -> 预测 -> add context`
 - context window：分段投喂 | 强调 | 精简
-- memory：固化参数 | context window & 平台记忆 & agent 记忆
+- memory：固化参数 | context window & <span class="text-accent">平台记忆 & agent 记忆</span>
 
 ## RAG 检索增强（what）
 

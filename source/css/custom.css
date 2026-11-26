@@ -1,0 +1,27 @@
+/* 语义配色：语雀笔记中的强调色，需同时适配浅色与深色模式 */
+
+.text-accent {
+  color: #df2a3f;
+}
+
+.text-ok {
+  color: #4a9e0a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-user-color-scheme]) .text-accent {
+    color: #ff8a95;
+  }
+
+  :root:not([data-user-color-scheme]) .text-ok {
+    color: #9ad14b;
+  }
+}
+
+[data-user-color-scheme="dark"] .text-accent {
+  color: #ff8a95;
+}
+
+[data-user-color-scheme="dark"] .text-ok {
+  color: #9ad14b;
+}
