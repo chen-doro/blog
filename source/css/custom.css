@@ -25,3 +25,18 @@
 [data-user-color-scheme="dark"] .text-ok {
   color: #9ad14b;
 }
+
+/* 带标签的条目：折行后与「：」后的正文左对齐 */
+.markdown-body .note-list .note-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.markdown-body .note-list .note-key {
+  flex: 0 0 auto;
+}
+
+.markdown-body .note-list .note-val {
+  flex: 1 1 auto;
+  min-width: 0;
+}

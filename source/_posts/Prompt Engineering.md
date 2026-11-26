@@ -39,4 +39,6 @@ description: Prompt 工程速记：提示词结构、调参与自我修正，以
 
 ## 提示词自动化
 
-- 提示词自动化：任务定义（元提示模板）- 候选生成（不同风格 & 侧重点）- 自动评估（准确性 & 可控性 & 完整性）- 筛选优化 - 迭代优化
+<ul class="note-list">
+  <li><div class="note-row"><span class="note-key">提示词自动化：</span><span class="note-val">任务定义（元提示模板）- 候选生成（不同风格 &amp; 侧重点）- 自动评估（准确性 &amp; 可控性 &amp; 完整性）- 筛选优化 - 迭代优化</span></div></li>
+</ul>
