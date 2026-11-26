@@ -27,7 +27,7 @@ description: 一张速记式的 AI 知识地图，串联机器学习、大模型
 ## Prompt 提示词
 
 - prompt 提示词：给 AI 的任务说明书（给案例 - 分步骤 - 自我检查）
-- prompt engineering：清晰表达
+- [prompt engineering：清晰表达](/blog/2026/11/26/Prompt%20Engineering/)
 
 ![Prompt 提示词结构图](/images/ai-notes/prompt-framework.jpeg)
 
