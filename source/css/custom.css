@@ -27,16 +27,12 @@
 }
 
 /* 带标签的条目：折行后与「：」后的正文左对齐 */
-.markdown-body .note-list .note-row {
-  display: flex;
-  align-items: flex-start;
+.markdown-body li > .note-row {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: baseline;
 }
 
-.markdown-body .note-list .note-key {
-  flex: 0 0 auto;
-}
-
-.markdown-body .note-list .note-val {
-  flex: 1 1 auto;
+.markdown-body .note-val {
   min-width: 0;
 }
