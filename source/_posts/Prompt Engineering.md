@@ -32,10 +32,10 @@ description: Prompt 工程速记：提示词结构、调参与自我修正，以
 - <span class="text-accent">RAG-Prompting</span>
 - <span class="text-accent">ReAct：思考 - 行动 - 观察；代码执行</span>
 - <span class="text-accent">BROKE：background - role - objective - key results - evolve（迭代）；方案</span>
-- <span class="text-accent">CO-STAR：context - objective - style - tone（情绪）- audience - response；公告</span>
-- <span class="text-accent">CRISPE：context - role - instruction - style - persona（情绪 & 态度）- output；文案</span>
-- <span class="text-accent">AIDA：attention（title | hook）- interest（痛点 & 需求）- desire（场景化描述）- action（号召）；营销</span>
-- <span class="text-accent">PAS：problem - agitation（严重后果）- solution；短广</span>
+- CO-STAR：context - objective - style - tone（情绪）- audience - response；公告
+- CRISPE：context - role - instruction - style - persona（情绪 & 态度）- output；文案
+- AIDA：attention（title | hook）- interest（痛点 & 需求）- desire（场景化描述）- action（号召）；营销
+- PAS：problem - agitation（严重后果）- solution；短广
 
 ## 提示词自动化
 
